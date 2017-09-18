@@ -1,0 +1,39 @@
+﻿Build started 2017/9/13 21:52:06.
+     1>Project "D:\C++\interview\test\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Boost\include\boost-1_64" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt constructdiaoyongcishu.cpp
+         constructdiaoyongcishu.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\interview\test\Debug\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Boost\lib strmbasd.lib winmm.lib msvcrtd.lib opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++\interview\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\interview\test\Debug\test.lib" /MACHINE:X86 Debug\BSTcreate.obj
+         Debug\constructdiaoyongcishu.obj
+         Debug\DP.obj
+         Debug\generateParentheses.obj
+         Debug\GetMaxSeqSum.obj
+         Debug\manBST.obj
+         Debug\MergeIntervals.obj
+         Debug\myheap.obj
+         Debug\SJF.obj
+         Debug\sortCompare.obj
+         Debug\stackQueue.obj
+         Debug\STLheap.obj
+         Debug\IsBST.obj
+         Debug\isPalindrome.obj
+         Debug\mergearray.obj
+         Debug\pow.obj
+         Debug\priority_queue.obj
+         Debug\SetMatrixZeroes.obj
+         Debug\strcpy.obj
+         Debug\strStr.obj
+         Debug\treelujingmulti.obj
+         Debug\twosum.obj
+         Debug\twosumsort.obj
+         Debug\valid.obj
+         Debug\validnumber.obj
+         Debug\worddingzhen.obj
+         Debug\WordLadder.obj
+         test.vcxproj -> D:\C++\interview\test\Debug\test.exe
+     1>Done Building Project "D:\C++\interview\test\test\test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.08
