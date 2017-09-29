@@ -55,7 +55,7 @@ void dijkstra(Graph G, int vs, int prev[], int dist[])
     {
         // 寻找当前最小的路径；
         // 即，在未获取最短路径的顶点中，找到离vs最近的顶点(k)。
-        min = INT_MIN;
+        min = INT_MAX;
         for (j = 0; j < G.vexnum; j++)
         {
             if (flag[j]==0 && dist[j]<min)
@@ -103,7 +103,7 @@ public:
     vector<vector<pair<int,int> > >adj; // pair<destination, length>
     unordered_map<int,int> version_index; // version to index
     vector<vertex*> v;
-    int n = 0; // No. of Vertices
+    int n ; // No. of Vertices
     void add_edge(int start, int end, int len)
 	{
         if(version_index.find(start) == version_index.end())

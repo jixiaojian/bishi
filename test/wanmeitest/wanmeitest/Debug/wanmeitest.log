@@ -1,13 +1,11 @@
-﻿Build started 2017/9/27 21:52:22.
-     1>Project "D:\bishi\test\wanmeitest\wanmeitest\wanmeitest.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2017/9/29 11:27:17.
+     1>Project "D:\bishi\test\wanmeitest\wanmeitest\wanmeitest.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt maxPend.cpp
-         maxPend.cpp
-       Link:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\bishi\test\wanmeitest\Debug\wanmeitest.exe" /INCREMENTAL /NOLOGO strmbasd.lib winmm.lib msvcrtd.lib opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\bishi\test\wanmeitest\Debug\wanmeitest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\bishi\test\wanmeitest\Debug\wanmeitest.lib" /MACHINE:X86 Debug\maxPend.obj
-         wanmeitest.vcxproj -> D:\bishi\test\wanmeitest\Debug\wanmeitest.exe
-     1>Done Building Project "D:\bishi\test\wanmeitest\wanmeitest\wanmeitest.vcxproj" (Build target(s)).
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt fork.cpp
+         fork.cpp
+     1>d:\bishi\test\wanmeitest\wanmeitest\fork.cpp(12): error C3861: 'fork': identifier not found
+     1>Done Building Project "D:\bishi\test\wanmeitest\wanmeitest\wanmeitest.vcxproj" (Rebuild target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:08.01
+Time Elapsed 00:00:01.51
