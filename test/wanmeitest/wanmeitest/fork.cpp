@@ -6,12 +6,17 @@
   我们可以通过fork返回的值来判断当前进程是子进程还是父进程。*/
 #include <stdio.h>
 #include <sys/types.h>
+//#include <window.h>
 #include <unistd.h>
 int main()
 {
+	unsigned short a = 65536;//unsigned short:[0,65535].short:[-32768,32767]
+	printf("%d\n",a);	//0
+	short b = 32768;//unsigned short:[0,65535].short:[-32768,32767]
+	printf("%d\n",b);	//-32768
 	for(int i=0;i<2;i++)
 	{
-		fork();		//总结一下规律，对于这种N次循环的情况，执行printf函数的次数为2*（1+2+4+……+2N）次，创建的子进程数为1+2+4+……+2N个。
+		//fork();		//总结一下规律，对于这种N次循环的情况，执行printf函数的次数为2*（1+2+4+……+2N）次，创建的子进程数为1+2+4+……+2N个。
 		printf("hello");//打印6次hello，创建了3个子进程
 	}
 }
